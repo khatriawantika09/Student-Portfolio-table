@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student portfolio</title>
+    <style>
+    /* Page background */
+    body {
+      background-color: #d2cded;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Page heading */
+    h1 {
+      text-align: center;
+      color: #333333;
+      margin-top: 20px;
+    }
+
+    /* Main table */
+    .main-table {
+      width: 95%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+    }
+
+    /* Header row */
+    .main-table th {
+      background-color: #6c63ff;
+      color: #ffffff;
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #d0cff5;
+    }
+
+    /* All cells */
+    .main-table td {
+      border: 1px solid #e0e0e0;
+      padding: 12px;
+      text-align: center;
+      vertical-align: middle;
+      color: #444444;
+    }
+
+    /* Alternate row color */
+    .main-table tr:nth-child(even) {
+      background-color: #f0eeff;
+    }
+
+    /* Profile picture - round */
+    .main-table img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid #6c63ff;
+    }
+
+    /* Social media link */
+    a {
+      color: #6c63ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #4b44cc;
+      text-decoration: underline;
+    }
+
+    /* Nested table */
+    .nested-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .nested-table th {
+      background-color: #a89df5;
+      color: #ffffff;
+      padding: 6px;
+      font-size: 13px;
+      border: 1px solid #d0cff5;
+    }
+
+    .nested-table td {
+      padding: 6px;
+      font-size: 13px;
+      border: 1px solid #e0e0e0;
+      text-align: left;
+      color: #555555;
+      background-color: #fafafa;
+    }
+  </style>
+    </head>
+<body>
+    <h1>Student Portfolio Table</h1>
+    <table class="main-table" border="1" cellpadding="12">
+        <tr>
+            <th>Name</th>
+            <th>Profile Pic</th>
+            <th>Roll No</th>
+            <th>Skills</th>
+            <th>Marks Details</th>
+            <th>Social Media</th>
+        </tr>
+        <tr>
+            <td>Awantika Khatri</td>
+            <td> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRroerK-GDVgI3XNQsbCNMqqC2_mOEvch2rFAVgDUrHRDuIXNs8CeDg35Td&s=10" alt=" Awantika" height="100px" width="100px"></td>
+            <td>57899</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td>
+                <table class="nested-table" border="1" cellpadding="6">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>90/100</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>80/100</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>70/100</td>
+                        <td>70%</td>
+                    </tr>
+                </table>
+            </td>
+            <td><a href="https://github.com/khatriawantika09" target="_blank">GitHub</a><br>
+                <a href="https://www.facebook.com" target="_blank"> facebook</a></td>
+        </tr>
+        <tr>
+            <td>Kiran Khan</td>
+            <td> <img src="https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d29tYW4lMjBwcm9maWxlfGVufDB8fDB8fHww" alt=" Kiran Khan" height="100px" width="100px"></td>
+            <td>17809</td>
+            <td>Python, C++, Excel</td>
+            <td>
+                <table class="nested-table" border="1" cellpadding="6">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>90/100</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>C++</td>
+                        <td>80/100</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>Excel</td>
+                        <td>70/100</td>
+                        <td>70%</td>
+                    </tr>
+                </table>
+            </td>
+            <td><a href="https://github.com" target="_blank">GitHub</a> <br>
+                <a href="https://www.facebook.com" target="_blank"> facebook</a></td>
+        </tr>
+        <tr>
+            <td>Sara Ali</td>
+            <td> <img src="https://img.magnific.com/free-photo/front-view-business-woman-suit_23-2148603018.jpg?semt=ais_hybrid&w=740&q=80" alt=" Sara" height="100px" width="100px"></td>
+            <td>24099</td>
+            <td>SQL, DSA, DBMS</td>
+            <td>
+                <table class="nested-table" border="1" cellpadding="6">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>90/100</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>DSA</td>
+                        <td>80/100</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>DBMS</td>
+                        <td>70/100</td>
+                        <td>70%</td>
+                    </tr>
+                </table>
+            </td>
+            <td><a href="https://github.com" target="_blank">GitHub</a> <br>
+                <a href="https://www.facebook.com" target="_blank"> facebook</a></td>
+        </tr>
+        <tr>
+            <td>Neha singh</td>
+            <td> <img src="https://img.magnific.com/free-photo/image-young-creative-student-woman-sitting-outdoor-cafe-drawing-notebook-creating-sketches_1258-205354.jpg?semt=ais_hybrid&w=740&q=80"   alt=" Neha" height="100px" width="100px"></td>
+            <td>98077</td>
+            <td>C sharp, CS, AI</td>
+            <td>
+                <table class="nested-table" border="1" cellpadding="6">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>C sharp</td>
+                        <td>90/100</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>CS</td>
+                        <td>80/100</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>AI</td>
+                        <td>70/100</td>
+                        <td>70%</td>
+                    </tr>
+                </table>
+            </td>
+            <td><a href="https://github.com/khatriawantika09" target="_blank">GitHub</a> <br>
+                <a href="https://www.facebook.com" target="_blank">facebook</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Ahmed Shah</td>
+            <td> <img src="https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D" alt=" Ahmed" height="100px" width="100px"></td>
+            <td>30020</td>
+            <td>Linux, GUI, Video editor</td>
+            <td>
+                <table class="nested-table" border="1" cellpadding="6">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>Linux</td>
+                        <td>90/100</td>
+                        <td>90%</td>
+                    </tr>
+                    <tr>
+                        <td>GUI</td>
+                        <td>80/100</td>
+                        <td>80%</td>
+                    </tr>
+                    <tr>
+                        <td>Video editor</td>
+                        <td>70/100</td>
+                        <td>70%</td>
+                    </tr>
+                </table>
+            </td>
+            <td><a href="https://github.com" target="_blank">GitHub</a> <br>
+            <a href="https://www.facebook.com" target="_blank"> facebook</a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
